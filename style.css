@@ -1,0 +1,121 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   width: 100%;
+   height: 100vh;
+   max-width: 750px;
+   margin: 10px auto;
+   position: relative;
+   background: 
+      linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+      url('./images/photo-1556742049-0cfed4f6a45d.avif') no-repeat center center fixed;
+   background-size: cover;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   color: white;
+}
+
+section {
+   position: relative;
+   z-index: 1;
+   padding: 3rem 0 1rem 0;
+   margin: 0 auto;
+}
+
+.heading, .paragraph {
+   text-align: center;
+   color: #0a0908;  
+}
+
+.heading {
+   font-size: 28px;
+   font-weight: bold;
+   letter-spacing: 1px;
+   margin-bottom: 0.5rem;
+}
+
+.paragraph {
+   font-size: 18px;
+   margin-bottom: 1rem;
+}
+   
+form {
+   background-color:rgba(34, 51, 59, 0.9);
+   margin: 0 auto;
+   color: #fffbf5;
+   max-width: 750px;
+   padding: 3rem;
+   border-radius: 5px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+fieldset {
+   border: none;
+   margin-bottom: 1.5rem; 
+}
+
+label {
+   margin-bottom: 0.5rem;
+   font-weight: 500;
+   color: #fffbf5;
+}
+
+input, select, textarea{
+   width: 100%;
+   padding: 0.8rem 1rem;
+   margin:0.5rem 0 2rem 0;
+   background-color: #fffbf5;
+   border: 1px solid #fffbf5;
+   border-radius: 5px;
+   color: #333;
+   font-size: 16px;
+}
+
+textarea {
+   margin-bottom: 0;
+   resize: none;
+   height: 100px;
+   color:#333
+}
+
+.inline {
+   display: inline-block;
+   width: unset;
+   margin:0 0.4rem 1rem 0;
+   vertical-align: top;
+   transform: scale(1.5);/*this helps to enlarge the radio/check button to 1.5 its size.*/
+   filter: invert(2);/*this helps to chnage the check mark or radio color from default blue to black and yellow*/  
+}
+
+.gender {
+   margin-bottom: 0.5rem;
+}
+/*puts sufficient space between Gender and Location */
+.gender-div {
+   margin-bottom: 2rem;
+}
+
+legend {
+   margin-bottom: 0.6rem;
+}
+
+button {
+   display: block;
+   width: 100%;
+   background-color: #c6ac8f;
+   padding: 0.8rem 1rem;
+   border: 1px solid #5e503f;
+   border-radius: 5px;
+   color:#22333b;
+   font-size: 16px;
+   cursor: pointer;
+}
+button:active {
+   background-color: #22333b;
+   border: 1px solid #22333b;
+   color: #c6ac8f;
+}
